@@ -33,12 +33,6 @@ def calWalk(shpfile,atrList,newfield):
 				#print row[i],maxList[i]
 				val = float(row[i])/maxList[i]*25
 				row[-1] = row[-1] + val
-				#print val,"val"
-				#print row[-1],"row[-1]"
-				#print 
-			#print row[-1]
-			print 
-			#row[-1]=100
 			cursor.updateRow(row)
 		
 if __name__ == '__main__':
