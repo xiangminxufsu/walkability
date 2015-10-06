@@ -40,7 +40,7 @@ def dor_to_int(dor):
 		val = int(dor)
 	except Exception:
 		val=0
-		print "can not process %s"%(dor)
+		#print "can not process %s"%(dor)
 		
 	if val<=9:
 		rt = 1
